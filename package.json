@@ -1,0 +1,17 @@
+{
+  "name": "tinyify-crash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "browserify main.js -o bundle.js -p tinyify",
+    "bundle:noplugin": "browserify main.js -o bundle.js"
+  },
+  "author": "Frederik Ring <frederik.ring@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "browserify": "^16.2.2",
+    "plotly.js": "^1.40.0",
+    "tinyify": "^2.4.3"
+  }
+}
